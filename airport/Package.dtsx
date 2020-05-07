@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="25"
-  DTS:VersionGUID="{323CA6FE-1CE4-4353-B9F5-E3444BA6D766}">
+  DTS:VersionBuild="53"
+  DTS:VersionGUID="{2EC2B980-B116-4EFC-B132-441DAB731512}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -88,12 +88,12 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Create Date"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{45093B90-36BB-47A0-9094-79B64D7B20B2}"
-          SQLTask:SqlStatementSource="if object_id('dbo.dates') is not null drop table dbo.dates&#xA;&#xA;CREATE TABLE [dbo].[dates](&#xA;&#x9;[id] [int] IDENTITY(1,1) NOT NULL, [flight_number] [int] NULL,&#xA;&#x9;[year] [int] NULL,&#xA;&#x9;[month] [int] NULL,&#xA;&#x9;[day] [int] NULL,&#xA;&#x9;[day_of_week] [int] NULL,&#xA;&#x9;[scheduled_departure] [int] NULL,&#xA;&#x9;[departure_time] [int] NULL,&#xA;&#x9;[departure_delay] [int] NULL,&#xA;&#x9;[taxi_out] [int] NULL,&#xA;&#x9;[wheels_of] [int] NULL,&#xA;&#x9;[scheduled_time] [int] NULL,&#xA;&#x9;[elapsed_time] [int] NULL,&#xA;&#x9;[air_time] [int] NULL,&#xA;&#x9;[wheels_on] [int] NULL,&#xA;&#x9;[taxi_in] [int] NULL,&#xA;&#x9;[scheduled_arrival] [int] NULL,&#xA;&#x9;[arrival_time] [int] NULL,&#xA;&#x9;[arrival_delay] [int] NULL,&#xA;&#xA;&#xA; CONSTRAINT [PK_dates] PRIMARY KEY CLUSTERED &#xA;([id] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="CREATE TABLE [dbo].[Dim_Date] (&#xA;   [DateKey] [int] NOT NULL,&#xA;   [Date] [date] NOT NULL,&#xA;   [Day] [tinyint] NOT NULL,&#xA;   [DaySuffix] [char](2) NOT NULL,&#xA;   [Weekday] [tinyint] NOT NULL,&#xA;   [WeekDayName] [varchar](10) NOT NULL,&#xA;   [WeekDayName_Short] [char](3) NOT NULL,&#xA;   [WeekDayName_FirstLetter] [char](1) NOT NULL,&#xA;   [DOWInMonth] [tinyint] NOT NULL,&#xA;   [DayOfYear] [smallint] NOT NULL,&#xA;   [WeekOfMonth] [tinyint] NOT NULL,&#xA;   [WeekOfYear] [tinyint] NOT NULL,&#xA;   [Month] [tinyint] NOT NULL,&#xA;   [MonthName] [varchar](10) NOT NULL,&#xA;   [MonthName_Short] [char](3) NOT NULL,&#xA;   [MonthName_FirstLetter] [char](1) NOT NULL,&#xA;   [Quarter] [tinyint] NOT NULL,&#xA;   [QuarterName] [varchar](6) NOT NULL,&#xA;   [Year] [int] NOT NULL,&#xA;   [MMYYYY] [char](6) NOT NULL,&#xA;   [MonthYear] [char](7) NOT NULL,&#xA;   IsWeekend BIT NOT NULL,&#xA;   IsHoliday BIT NOT NULL,&#xA;   HolidayName VARCHAR(20) NULL,&#xA;   SpecialDays VARCHAR(20) NULL,&#xA;   [FinancialYear] [int] NULL,&#xA;   [FinancialQuater] [int] NULL,&#xA;   [FinancialMonth] [int] NULL,&#xA;   [FirstDateofYear] DATE NULL,&#xA;   [LastDateofYear] DATE NULL,&#xA;   [FirstDateofQuater] DATE NULL,&#xA;   [LastDateofQuater] DATE NULL,&#xA;   [FirstDateofMonth] DATE NULL,&#xA;   [LastDateofMonth] DATE NULL,&#xA;   [FirstDateofWeek] DATE NULL,&#xA;   [LastDateofWeek] DATE NULL,&#xA;   CurrentYear SMALLINT NULL,&#xA;   CurrentQuater SMALLINT NULL,&#xA;   CurrentMonth SMALLINT NULL,&#xA;   CurrentWeek SMALLINT NULL,&#xA;   CurrentDay SMALLINT NULL,&#xA;   PRIMARY KEY CLUSTERED ([DateKey] ASC)&#xA;   );" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -105,12 +105,12 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Create Dimension Airlines"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{45093B90-36BB-47A0-9094-79B64D7B20B2}"
-          SQLTask:SqlStatementSource="if object_id('dbo.airlines') is not null drop table dbo.airlines&#xA;&#xA;CREATE TABLE [dbo].[airlines](&#xA;&#x9;[iata_code] [nvarchar](50) NOT NULL,&#xA;&#x9;[airline] [nvarchar](50) NULL,&#xA; CONSTRAINT [PK_airlines] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[iata_code] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;GO&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="if object_id('dbo.airlines') is not null drop table dbo.airlines&#xA;&#xA;CREATE TABLE [dbo].[airlines](&#xA;&#x9;[airline_PK] [int] IDENTITY(1,1) NOT NULL,&#xA;&#x9;[iata_code_BK] [nvarchar](50) NOT NULL,&#xA;&#x9;[airline] [nvarchar](300) NULL,&#xA; CONSTRAINT [PK_airlines] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[airline_PK] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;GO&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -122,12 +122,29 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Create Dimension Airports"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{45093B90-36BB-47A0-9094-79B64D7B20B2}"
-          SQLTask:SqlStatementSource="if object_id('dbo.airports') is not null drop table dbo.airports&#xA;&#xA;CREATE TABLE [dbo].[airports](&#xA;&#x9;[iata_code] [nvarchar](50) NOT NULL,&#xA;&#x9;[airport] [nvarchar](300) NULL,&#xA;&#x9;[city] [nvarchar](100) NULL,&#xA;&#x9;[state] [nvarchar](100) NULL,&#xA;&#x9;[country] [nvarchar](100) NULL,&#xA;&#x9;[latitude] [nvarchar](100) NULL,&#xA;&#x9;[longitude] [nvarchar](100) NULL,&#xA; CONSTRAINT [PK_airports] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[iata_code] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;GO&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="if object_id('dbo.airports') is not null drop table dbo.airports&#xA;&#xA;CREATE TABLE [dbo].[airports](&#xA;&#x9;[airport_PK][int] IDENTITY(1,1) NOT NULL,&#xA;&#x9;[iata_code_BK] [nvarchar](50) NOT NULL,&#xA;&#x9;[airport] [nvarchar](300) NULL,&#xA;&#x9;[city] [nvarchar](50) NULL,&#xA;&#x9;[state] [nvarchar](50) NULL,&#xA;&#x9;[country] [nvarchar](50) NULL,&#xA;&#x9;[latitude] [decimal](9,6) NULL,&#xA;&#x9;[longitude]  [decimal](9,6) NULL,&#xA; CONSTRAINT [PK_airports] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[airport_PK] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Create Dimension Fact Delay"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{FC094AF5-EADF-4F12-B079-F4777FE8FD11}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Create Dimension Fact Delay"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{45093B90-36BB-47A0-9094-79B64D7B20B2}"
+          SQLTask:SqlStatementSource="CREATE TABLE [dbo].[FactDelay](&#xA;&#x9;[delay_PK] [int] IDENTITY(1,1) NOT NULL,&#xA;&#x9;[airlines_FK] [int] NULL,&#xA;&#x9;[airports_FK] [int] NULL,&#xA;&#x9;[date_fk] [int] NULL,&#xA;&#x9;[flights_FK] [int] NULL,&#xA;&#x9;[air_system_delay] [int] NULL,&#xA;&#x9;[security_delay] [int] NULL,&#xA;&#x9;[airline_delay] [int] NULL,&#xA;&#x9;[late_aircraft_delay] [int] NULL,&#xA;&#x9;[weather_delay] [int] NULL,&#xA;&#x9;[arrival_delay] [int] NULL,&#xA;&#x9;[departure_delay] [int] NULL,&#xA;&#x9;[total_delay][int]NULL,&#xA; CONSTRAINT [PK_FactDelay] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[delay_PK] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[FactDelay]  WITH CHECK ADD  CONSTRAINT [FK_FactDelay_airlines] FOREIGN KEY([airlines_FK])&#xA;REFERENCES [dbo].[airlines] ([airline_PK])&#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[FactDelay] CHECK CONSTRAINT [FK_FactDelay_airlines]&#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[FactDelay]  WITH CHECK ADD  CONSTRAINT [FK_FactDelay_airports] FOREIGN KEY([airports_FK])&#xA;REFERENCES [dbo].[airports] ([airport_PK])&#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[FactDelay] CHECK CONSTRAINT [FK_FactDelay_airports]&#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[FactDelay]  WITH CHECK ADD  CONSTRAINT [FK_FactDelay_Dim_Date] FOREIGN KEY([date_fk])&#xA;REFERENCES [dbo].[Dim_Date] ([DateKey])&#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[FactDelay] CHECK CONSTRAINT [FK_FactDelay_Dim_Date]&#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[FactDelay]  WITH CHECK ADD  CONSTRAINT [FK_FactDelay_flights] FOREIGN KEY([flights_FK])&#xA;REFERENCES [dbo].[flights] ([flight_PK])&#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[FactDelay] CHECK CONSTRAINT [FK_FactDelay_flights]&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -139,12 +156,12 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Create Dimension Flights"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{45093B90-36BB-47A0-9094-79B64D7B20B2}"
-          SQLTask:SqlStatementSource="CREATE TABLE [dbo].[flights](&#xA;&#x9;[airline] [nvarchar](50) NULL,&#xA;&#x9;[flight_number] [int] NOT NULL,&#xA;&#x9;[tail_number] [nvarchar](50) NULL,&#xA;&#x9;[origin_airport] [nvarchar](50) NULL,&#xA;&#x9;[destination_airport] [nvarchar](50) NULL,&#xA;&#x9;[distance] [int] NULL,&#xA;&#x9;[diverted] [int] NULL,&#xA;&#x9;[cancelled] [int] NULL,&#xA;&#x9;[cancellation_reason] [nvarchar](50) NULL,&#xA;&#x9;[air_system_delay] [int] NULL,&#xA;&#x9;[security_delay] [int] NULL,&#xA;&#x9;[airline_delay] [int] NULL,&#xA;&#x9;[late_aircraft_delay] [int] NULL,&#xA;&#x9;[weather_delay] [int] NULL,&#xA; CONSTRAINT [PK_flights] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[flight_number] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[flights]  WITH CHECK ADD  CONSTRAINT [FK_flights_airports] FOREIGN KEY([origin_airport])&#xA;REFERENCES [dbo].[airports] ([iata_code])&#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[flights] CHECK CONSTRAINT [FK_flights_airports]&#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[flights]  WITH CHECK ADD  CONSTRAINT [FK_flights_airports1] FOREIGN KEY([destination_airport])&#xA;REFERENCES [dbo].[airports] ([iata_code])&#xA;GO&#xA;&#xA;ALTER TABLE [dbo].[flights] CHECK CONSTRAINT [FK_flights_airports1]&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="if object_id('dbo.flights') is not null drop table dbo.flights&#xA;&#xA;CREATE TABLE [dbo].[flights](&#xA;&#x9;[flight_PK] [int] IDENTITY(1,1) NOT NULL,&#xA;&#x9;[airline] [nvarchar](300) NULL,&#xA;&#x9;[flight_number_BK] [int] NULL,&#xA;&#x9;[tail_number] [nvarchar](300) NULL,&#xA;&#x9;[origin_airport] [nvarchar](300) NULL,&#xA;&#x9;[destination_airport] [nvarchar](300) NULL,&#xA;&#x9;[scheduled_departure] [int] NULL,&#xA;&#x9;[departure_time] [int] NULL,&#xA;&#x9;[taxi_out] [int] NULL,&#xA;&#x9;[wheels_off] [int] NULL,&#xA;&#x9;[scheduled_time] [int] NULL,&#xA;&#x9;[elapsed_time] [int] NULL,&#xA;&#x9;[air_time] [int] NULL,&#xA;&#x9;[distance] [int] NULL,&#xA;&#x9;[wheels_on] [int] NULL,&#xA;&#x9;[taxi_in] [int] NULL,&#xA;&#x9;[scheduled_arrival] [int] NULL,&#xA;&#x9;[arrival_time] [int] NULL,&#xA;&#x9;[diverted] [int] NULL,&#xA;&#x9;[cancelled] [int] NULL,&#xA;&#x9;[cancellation_reason] [nvarchar](300) NULL,&#xA; CONSTRAINT [PK_flights] PRIMARY KEY CLUSTERED &#xA;(&#xA;&#x9;[flight_PK] ASC&#xA;)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]&#xA;) ON [PRIMARY]&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -164,12 +181,29 @@
           SQLTask:SqlStatementSource="if not exists(select * from sys.databases where name = 'AirflightsDelay') create database AirflightsDelay;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Populate Dimension Date"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{4A9D064E-6717-48E6-A7BC-897CB5F0E8B5}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Populate Dimension Date"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="2">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{45093B90-36BB-47A0-9094-79B64D7B20B2}"
+          SQLTask:SqlStatementSource="SET NOCOUNT ON&#xA;&#xA;TRUNCATE TABLE DIM_Date&#xA;&#xA;DECLARE @CurrentDate DATE = '2015-01-01'&#xA;DECLARE @EndDate DATE = '2015-12-31'&#xA;&#xA;WHILE @CurrentDate &lt; @EndDate&#xA;BEGIN&#xA;   INSERT INTO [dbo].[Dim_Date] (&#xA;      [DateKey],&#xA;      [Date],&#xA;      [Day],&#xA;      [DaySuffix],&#xA;      [Weekday],&#xA;      [WeekDayName],&#xA;      [WeekDayName_Short],&#xA;      [WeekDayName_FirstLetter],&#xA;      [DOWInMonth],&#xA;      [DayOfYear],&#xA;      [WeekOfMonth],&#xA;      [WeekOfYear],&#xA;      [Month],&#xA;      [MonthName],&#xA;      [MonthName_Short],&#xA;      [MonthName_FirstLetter],&#xA;      [Quarter],&#xA;      [QuarterName],&#xA;      [Year],&#xA;      [MMYYYY],&#xA;      [MonthYear],&#xA;      [IsWeekend],&#xA;      [IsHoliday],&#xA;      [FirstDateofYear],&#xA;      [LastDateofYear],&#xA;      [FirstDateofQuater],&#xA;      [LastDateofQuater],&#xA;      [FirstDateofMonth],&#xA;      [LastDateofMonth],&#xA;      [FirstDateofWeek],&#xA;      [LastDateofWeek]&#xA;      )&#xA;   SELECT DateKey = YEAR(@CurrentDate) * 10000 + MONTH(@CurrentDate) * 100 + DAY(@CurrentDate),&#xA;      DATE = @CurrentDate,&#xA;      Day = DAY(@CurrentDate),&#xA;      [DaySuffix] = CASE &#xA;         WHEN DAY(@CurrentDate) = 1&#xA;            OR DAY(@CurrentDate) = 21&#xA;            OR DAY(@CurrentDate) = 31&#xA;            THEN 'st'&#xA;         WHEN DAY(@CurrentDate) = 2&#xA;            OR DAY(@CurrentDate) = 22&#xA;            THEN 'nd'&#xA;         WHEN DAY(@CurrentDate) = 3&#xA;            OR DAY(@CurrentDate) = 23&#xA;            THEN 'rd'&#xA;         ELSE 'th'&#xA;         END,&#xA;      WEEKDAY = DATEPART(dw, @CurrentDate),&#xA;      WeekDayName = DATENAME(dw, @CurrentDate),&#xA;      WeekDayName_Short = UPPER(LEFT(DATENAME(dw, @CurrentDate), 3)),&#xA;      WeekDayName_FirstLetter = LEFT(DATENAME(dw, @CurrentDate), 1),&#xA;      [DOWInMonth] = DAY(@CurrentDate),&#xA;      [DayOfYear] = DATENAME(dy, @CurrentDate),&#xA;      [WeekOfMonth] = DATEPART(WEEK, @CurrentDate) - DATEPART(WEEK, DATEADD(MM, DATEDIFF(MM, 0, @CurrentDate), 0)) + 1,&#xA;      [WeekOfYear] = DATEPART(wk, @CurrentDate),&#xA;      [Month] = MONTH(@CurrentDate),&#xA;      [MonthName] = DATENAME(mm, @CurrentDate),&#xA;      [MonthName_Short] = UPPER(LEFT(DATENAME(mm, @CurrentDate), 3)),&#xA;      [MonthName_FirstLetter] = LEFT(DATENAME(mm, @CurrentDate), 1),&#xA;      [Quarter] = DATEPART(q, @CurrentDate),&#xA;      [QuarterName] = CASE &#xA;         WHEN DATENAME(qq, @CurrentDate) = 1&#xA;            THEN 'First'&#xA;         WHEN DATENAME(qq, @CurrentDate) = 2&#xA;            THEN 'second'&#xA;         WHEN DATENAME(qq, @CurrentDate) = 3&#xA;            THEN 'third'&#xA;         WHEN DATENAME(qq, @CurrentDate) = 4&#xA;            THEN 'fourth'&#xA;         END,&#xA;      [Year] = YEAR(@CurrentDate),&#xA;      [MMYYYY] = RIGHT('0' + CAST(MONTH(@CurrentDate) AS VARCHAR(2)), 2) + CAST(YEAR(@CurrentDate) AS VARCHAR(4)),&#xA;      [MonthYear] = CAST(YEAR(@CurrentDate) AS VARCHAR(4)) + UPPER(LEFT(DATENAME(mm, @CurrentDate), 3)),&#xA;      [IsWeekend] = CASE &#xA;         WHEN DATENAME(dw, @CurrentDate) = 'Sunday'&#xA;            OR DATENAME(dw, @CurrentDate) = 'Saturday'&#xA;            THEN 1&#xA;         ELSE 0&#xA;         END,&#xA;      [IsHoliday] = 0,&#xA;      [FirstDateofYear] = CAST(CAST(YEAR(@CurrentDate) AS VARCHAR(4)) + '-01-01' AS DATE),&#xA;      [LastDateofYear] = CAST(CAST(YEAR(@CurrentDate) AS VARCHAR(4)) + '-12-31' AS DATE),&#xA;      [FirstDateofQuater] = DATEADD(qq, DATEDIFF(qq, 0, GETDATE()), 0),&#xA;      [LastDateofQuater] = DATEADD(dd, - 1, DATEADD(qq, DATEDIFF(qq, 0, GETDATE()) + 1, 0)),&#xA;      [FirstDateofMonth] = CAST(CAST(YEAR(@CurrentDate) AS VARCHAR(4)) + '-' + CAST(MONTH(@CurrentDate) AS VARCHAR(2)) + '-01' AS DATE),&#xA;      [LastDateofMonth] = EOMONTH(@CurrentDate),&#xA;      [FirstDateofWeek] = DATEADD(dd, - (DATEPART(dw, @CurrentDate) - 1), @CurrentDate),&#xA;      [LastDateofWeek] = DATEADD(dd, 7 - (DATEPART(dw, @CurrentDate)), @CurrentDate)&#xA;&#xA;   SET @CurrentDate = DATEADD(DD, 1, @CurrentDate)&#xA;END&#xA;&#xA;--Update Holiday information&#xA;UPDATE Dim_Date&#xA;SET [IsHoliday] = 1,&#xA;   [HolidayName] = 'Christmas'&#xA;WHERE [Month] = 12&#xA;   AND [DAY] = 25&#xA;&#xA;UPDATE Dim_Date&#xA;SET SpecialDays = 'Valentines Day'&#xA;WHERE [Month] = 2&#xA;   AND [DAY] = 14&#xA;&#xA;--Update current date information&#xA;UPDATE Dim_Date&#xA;SET CurrentYear = DATEDIFF(yy, GETDATE(), DATE),&#xA;   CurrentQuater = DATEDIFF(q, GETDATE(), DATE),&#xA;   CurrentMonth = DATEDIFF(m, GETDATE(), DATE),&#xA;   CurrentWeek = DATEDIFF(ww, GETDATE(), DATE),&#xA;   CurrentDay = DATEDIFF(dd, GETDATE(), DATE);" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
-      DTS:DTSID="{9B994463-8FB4-448A-B1E9-9160BF716559}"
+      DTS:DTSID="{7EF801E7-D2F5-4710-BE3D-736FC7D43DC3}"
       DTS:From="Package\Execute SQL Task"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
@@ -177,8 +211,8 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
-      DTS:DTSID="{875C2D79-DFA7-410F-B1AA-A2A10808529E}"
-      DTS:From="Package\Execute SQL Task"
+      DTS:DTSID="{F8C7B050-2F46-40D4-911A-B684BF795BE8}"
+      DTS:From="Package\Create Dimension Airlines"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
       DTS:To="Package\Create Dimension Airports" />
@@ -193,11 +227,27 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
       DTS:CreationName=""
-      DTS:DTSID="{4D1DE7CF-6D22-44E6-89DE-5AED1ECDA96E}"
-      DTS:From="Package\Execute SQL Task"
+      DTS:DTSID="{EE18A0D7-54CB-4BE7-9EBC-5937AA309231}"
+      DTS:From="Package\Create Dimension Airports"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 3"
       DTS:To="Package\Create Dimension Flights" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
+      DTS:CreationName=""
+      DTS:DTSID="{090580AF-0C09-47DB-B812-6876A6F89B13}"
+      DTS:From="Package\Create Date"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 4"
+      DTS:To="Package\Populate Dimension Date" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 5]"
+      DTS:CreationName=""
+      DTS:DTSID="{D43F9EDF-2656-4C29-93C7-31344D27EFFF}"
+      DTS:From="Package\Create Date"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 5"
+      DTS:To="Package\Create Dimension Fact Delay" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -214,49 +264,57 @@
         <NodeLayout
           Size="134.4,41.6"
           Id="Package\Create Date"
-          TopLeft="767.428584497802,258.164709503015" />
+          TopLeft="276.571433281411,132.75294303828" />
         <NodeLayout
           Size="198.4,41.6"
           Id="Package\Create Dimension Airlines"
-          TopLeft="22.8571432463977,261.835297789788" />
+          TopLeft="6.85714297391917,118.682354605651" />
         <NodeLayout
           Size="201.6,41.6"
           Id="Package\Create Dimension Airports"
-          TopLeft="266.857147401693,260.000003646402" />
+          TopLeft="2.28571432463978,185.364708482023" />
+        <NodeLayout
+          Size="214.4,41.6"
+          Id="Package\Create Dimension Fact Delay"
+          TopLeft="465.142865064193,137.647060753977" />
         <NodeLayout
           Size="195.2,41.6"
           Id="Package\Create Dimension Flights"
-          TopLeft="515.428580206268,259.38823893194" />
+          TopLeft="6.85714297391944,261.835297789789" />
         <NodeLayout
           Size="162.4,41.6"
           Id="Package\Execute SQL Task"
-          TopLeft="396.00000674384,68.5176480197577" />
+          TopLeft="196.571431919021,32.4235298664925" />
+        <NodeLayout
+          Size="172,41.6"
+          Id="Package\Populate Dimension Date"
+          TopLeft="261.142861590093,221.458826635288" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="430.88000674384,110.117648019758">
+          TopLeft="252.038098585688,74.0235298664925">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-308.822863497442,151.717649770031"
+              EndConnector="-145.980955611768,44.6588247391585"
               Start="0,0"
-              End="-308.822863497442,144.217649770031">
+              End="-145.980955611768,37.1588247391585">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,41.5884874567425" />
+                    End="0,14.1249474063316" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,41.5884874567425"
-                    Point2="0,45.5884874567425"
-                    Point3="-4,45.5884874567425" />
+                    Point1="0,14.1249474063316"
+                    Point2="0,18.1249474063317"
+                    Point3="-4,18.1249474063317" />
                   <mssgle:LineSegment
-                    End="-304.822863497442,45.5884874567425" />
+                    End="-141.980955611768,18.1249474063317" />
                   <mssgle:CubicBezierSegment
-                    Point1="-304.822863497442,45.5884874567425"
-                    Point2="-308.822863497442,45.5884874567425"
-                    Point3="-308.822863497442,49.5884874567425" />
+                    Point1="-141.980955611768,18.1249474063317"
+                    Point2="-145.980955611768,18.1249474063317"
+                    Point3="-145.980955611768,22.1249474063317" />
                   <mssgle:LineSegment
-                    End="-308.822863497442,144.217649770031" />
+                    End="-145.980955611768,37.1588247391585" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -267,30 +325,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="461.76000674384,110.117648019758">
+          TopLeft="104.571428649279,160.282354605651">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-94.102859342147,149.882355626644"
+              EndConnector="0,25.082353876372"
               Start="0,0"
-              End="-94.102859342147,142.382355626644">
+              End="0,17.582353876372">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,63.0676626701696" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,63.0676626701696"
-                    Point2="0,67.0676626701696"
-                    Point3="-4,67.0676626701696" />
-                  <mssgle:LineSegment
-                    End="-90.102859342147,67.0676626701696" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-90.102859342147,67.0676626701696"
-                    Point2="-94.102859342147,67.0676626701696"
-                    Point3="-94.102859342147,71.0676626701696" />
-                  <mssgle:LineSegment
-                    End="-94.102859342147,142.382355626644" />
+                    End="0,17.582353876372" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -301,30 +347,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="523.52000674384,110.117648019758">
+          TopLeft="344.200004598073,74.0235298664925">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="311.108577753963,148.047061483258"
+              EndConnector="0,58.7294131717875"
               Start="0,0"
-              End="311.108577753963,140.547061483258">
+              End="0,51.2294131717875">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,40.4855401838045" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,40.4855401838045"
-                    Point2="0,44.4855401838045"
-                    Point3="4,44.4855401838045" />
-                  <mssgle:LineSegment
-                    End="307.108577753963,44.4855401838045" />
-                  <mssgle:CubicBezierSegment
-                    Point1="307.108577753963,44.4855401838045"
-                    Point2="311.108577753963,44.4855401838045"
-                    Point3="311.108577753963,48.4855401838045" />
-                  <mssgle:LineSegment
-                    End="311.108577753963,140.547061483258" />
+                    End="0,51.2294131717875" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -335,30 +369,62 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="492.64000674384,110.117648019758">
+          TopLeft="103.77142864928,226.964708482023">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="120.388573462428,149.270590912182"
+              EndConnector="0,34.8705893077664"
               Start="0,0"
-              End="120.388573462428,141.770590912182">
+              End="0,27.3705893077664">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,62.7939171093161" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,62.7939171093161"
-                    Point2="0,66.7939171093161"
-                    Point3="4,66.7939171093161" />
+                    End="0,27.3705893077664" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 4]"
+          TopLeft="345.457147435753,174.35294303828">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,47.1058835970078"
+              Start="0,0"
+              End="0,39.6058835970078">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="116.388573462428,66.7939171093161" />
-                  <mssgle:CubicBezierSegment
-                    Point1="116.388573462428,66.7939171093161"
-                    Point2="120.388573462428,66.7939171093161"
-                    Point3="120.388573462428,70.7939171093161" />
+                    End="0,39.6058835970078" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 5]"
+          TopLeft="410.971433281411,156.000001896129">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="54.1714317827816,0"
+              Start="0,0"
+              End="46.6714317827816,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="120.388573462428,141.770590912182" />
+                    End="46.6714317827816,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>

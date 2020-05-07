@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="13"
-  DTS:VersionGUID="{BF47F3FF-7D64-4539-9E9B-1244EBE029DB}">
+  DTS:VersionBuild="35"
+  DTS:VersionGUID="{34D8EA5E-3369-40E5-8BC9-32294E5A04DE}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -77,7 +77,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="IATA_CODE"
-              DTS:DTSID="{A29EDA50-E22F-44F5-A8BC-F9BAABEE1FC8}"
+              DTS:DTSID="{F3F9FE08-45B9-4C37-AF10-BC1A04809EE9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -86,7 +86,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AIRPORT"
-              DTS:DTSID="{ECAEE5E3-6676-4AB3-AFD3-7CCA208852F6}"
+              DTS:DTSID="{B206BFE7-22DE-45BA-B6A5-7BDC6E48978B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -95,7 +95,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CITY"
-              DTS:DTSID="{57493BFC-0468-4C8E-A2DB-D9EB9F6C996F}"
+              DTS:DTSID="{C82B6402-B621-42BB-8AE3-3FBC9D4B970A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -104,7 +104,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="STATE"
-              DTS:DTSID="{C326240A-08E8-4E05-A309-EA98631B1980}"
+              DTS:DTSID="{D3252CC2-0494-4328-832F-97EF125C32FC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -113,25 +113,23 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="COUNTRY"
-              DTS:DTSID="{97A662C4-5381-4872-95AA-2E83B80E5671}"
+              DTS:DTSID="{1E9E053A-DB24-4A85-93EE-9CB6D577762C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="14"
               DTS:TextQualified="True"
               DTS:ObjectName="LATITUDE"
-              DTS:DTSID="{2A0260F6-B630-41BC-8117-76982497E731}"
+              DTS:DTSID="{E3D7F641-39AB-4C3E-9DEE-CC714434B2B1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="14"
               DTS:TextQualified="True"
               DTS:ObjectName="LONGITUDE"
-              DTS:DTSID="{713F84DF-13AA-46A8-BA6C-DD7F415459F4}"
+              DTS:DTSID="{C0ED6567-2D57-4C08-8C5A-85A3245605E9}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -156,38 +154,34 @@
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="YEAR"
-              DTS:DTSID="{701AA08A-9C0F-4D09-9B45-8A041727A9A2}"
+              DTS:DTSID="{37EF6072-594B-46FF-BC2E-88A2C9E9E079}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="MONTH"
-              DTS:DTSID="{DAE6EA3D-6AE6-4433-963C-0B1EE044D44D}"
+              DTS:DTSID="{716AE81A-1B9B-46A0-8965-720BD576AA86}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="DAY"
-              DTS:DTSID="{C08C6864-53C7-4217-B584-2D07ACC300F4}"
+              DTS:DTSID="{0E735515-9F14-4EB1-8296-B2C529A66B2A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="DAY_OF_WEEK"
-              DTS:DTSID="{ACDA44EE-E99C-4FAF-A982-AFB91FD65EC5}"
+              DTS:DTSID="{19611C79-639D-44CD-98E2-AF2B401BAFF9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -196,16 +190,15 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AIRLINE"
-              DTS:DTSID="{AD3D6DA7-A1C4-40ED-A971-6A61FC8F8BCF}"
+              DTS:DTSID="{0DB4E891-C001-4DF3-A489-676EA8B80F2B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="FLIGHT_NUMBER"
-              DTS:DTSID="{BDB27CFC-5011-4A28-A81D-07EC3398F94F}"
+              DTS:DTSID="{6F316360-35E8-4BBA-AD60-D85AF5E1C515}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -214,7 +207,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="TAIL_NUMBER"
-              DTS:DTSID="{0146F43B-86BD-4C86-9F11-32C41F90AD7F}"
+              DTS:DTSID="{7DDF6272-AD0C-4A5E-9EC6-3DC2C5C70E50}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -223,7 +216,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ORIGIN_AIRPORT"
-              DTS:DTSID="{92428C97-7248-48E4-A97E-0BB15549205B}"
+              DTS:DTSID="{67F58826-E125-4150-A7F9-428C8C02EB5D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -232,151 +225,135 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DESTINATION_AIRPORT"
-              DTS:DTSID="{3DE6B281-60A9-46CA-9965-D38A0E5C52D8}"
+              DTS:DTSID="{B706C0E3-2D5E-4FA2-8591-58CD9FC57097}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SCHEDULED_DEPARTURE"
-              DTS:DTSID="{F616ACF9-2399-42BC-AE75-B9D66F2B4B13}"
+              DTS:DTSID="{8B159B00-044D-470F-935C-2CBA611E493C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="DEPARTURE_TIME"
-              DTS:DTSID="{6B52C1C2-DE47-449B-9B8B-647491736B8C}"
+              DTS:DTSID="{49FACE19-3ECB-4509-9483-C6C829C91C2A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="DEPARTURE_DELAY"
-              DTS:DTSID="{063484B3-6738-47C3-884D-0E451F668FF0}"
+              DTS:DTSID="{ECCEFA9E-237C-4A4F-AF17-C230B1FA7BBA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="TAXI_OUT"
-              DTS:DTSID="{7E1FC515-6DB0-4464-BBF9-D3E249014E8F}"
+              DTS:DTSID="{7F67FD42-8356-44F8-B771-339813499CB3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="WHEELS_OFF"
-              DTS:DTSID="{1422F662-D82D-4486-B6EE-BF3B75A20B3F}"
+              DTS:DTSID="{251CE742-4523-4A7B-AD17-1D3D76C6B4D3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SCHEDULED_TIME"
-              DTS:DTSID="{F350A452-F4C1-479F-A363-A52AB2B6F520}"
+              DTS:DTSID="{EACA07E4-119F-4C29-9978-CFE1BA181305}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ELAPSED_TIME"
-              DTS:DTSID="{AE039DD2-5CB2-4EE9-A164-A5BF717A4CFC}"
+              DTS:DTSID="{5F3517C5-E9C5-4D58-93B0-4EB1166F5C8C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="AIR_TIME"
-              DTS:DTSID="{BD904BC5-14CC-4F02-AAE3-995970DFF53B}"
+              DTS:DTSID="{BFF9E02C-12D8-45D9-A395-BFF2DB368434}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="DISTANCE"
-              DTS:DTSID="{CE967798-CF94-4758-8812-F55B7063A8A3}"
+              DTS:DTSID="{DC69EFF6-A890-4867-972A-DCF50B2018CF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="WHEELS_ON"
-              DTS:DTSID="{AE620E11-C17A-4891-99D7-976D1854FF31}"
+              DTS:DTSID="{6AFD23AF-C7E5-4EC8-A958-02293A44951F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="TAXI_IN"
-              DTS:DTSID="{D6751089-F7C8-4AC3-BA79-EF12E786011B}"
+              DTS:DTSID="{1154FB0A-CEB6-4563-863A-54951268EF7C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SCHEDULED_ARRIVAL"
-              DTS:DTSID="{064A0CE2-6EC3-4047-B44E-2E71C1EDF695}"
+              DTS:DTSID="{C2005F8D-F408-4FF5-B8F4-19154E191F03}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ARRIVAL_TIME"
-              DTS:DTSID="{D71235E3-9E62-4071-B888-426ABA37A5A2}"
+              DTS:DTSID="{A83317B5-0DE2-4958-B9EC-48DF2516CFE8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ARRIVAL_DELAY"
-              DTS:DTSID="{06075E72-DA68-455B-98F4-060621A56C1E}"
+              DTS:DTSID="{BA3A8548-67FF-4966-94D0-B338C13661AC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="DIVERTED"
-              DTS:DTSID="{58982C35-B49A-4B78-8362-D87E5BF6A734}"
+              DTS:DTSID="{E5E3D9E0-2CC8-49E9-A4A5-3BBD76502F94}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="CANCELLED"
-              DTS:DTSID="{F57B11EF-9424-4DD7-B1B8-B42F2460A7F7}"
+              DTS:DTSID="{AC8ED6C5-F88E-491E-8D7B-D24D0B816752}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -385,52 +362,47 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CANCELLATION_REASON"
-              DTS:DTSID="{0DBE84EB-294A-474B-B1F4-431CE2086C10}"
+              DTS:DTSID="{2C433566-5B65-423A-AB34-5D2C07BAC784}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="AIR_SYSTEM_DELAY"
-              DTS:DTSID="{76062017-1B26-49BE-A7C4-C5FD50455197}"
+              DTS:DTSID="{0FCFDCE9-63E4-4F27-9E0C-45CEF797DBE1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="SECURITY_DELAY"
-              DTS:DTSID="{0B7E8A24-3BC9-4F68-85AD-4402C8283E05}"
+              DTS:DTSID="{9D323612-68C7-4726-A285-C2AC03F6C45B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="AIRLINE_DELAY"
-              DTS:DTSID="{4AB58959-EBD4-4E5A-9BD9-4243641417B4}"
+              DTS:DTSID="{3E9886B5-E9B4-4A44-A886-CCBE61B0E8B5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="LATE_AIRCRAFT_DELAY"
-              DTS:DTSID="{F32FC623-0ECB-4162-B24D-3A3C7B9EC890}"
+              DTS:DTSID="{FC6A5883-5EDB-4010-A4BC-05EF8D10C3CD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
+              DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="WEATHER_DELAY"
-              DTS:DTSID="{DD3C73EE-E82B-428B-ABC5-7C68340A8E1F}"
+              DTS:DTSID="{4212EE22-16A8-444B-8D87-20F398FBF491}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -472,939 +444,6 @@
         <pipeline
           version="1">
           <components>
-            <component
-              refId="Package\Data Flow Task\Flat File Date"
-              componentClassID="Microsoft.FlatFileSource"
-              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Flat File Source"
-              localeId="2057"
-              name="Flat File Date"
-              usesDispositions="true"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.Boolean"
-                  description="Specifies whether zero-length columns are treated as null."
-                  name="RetainNulls">false</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
-                  name="FileNameColumnName"></property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Data Flow Task\Flat File Date.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager 2]"
-                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager 2]"
-                  name="FlatFileConnection" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output]"
-                  name="Flat File Source Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[YEAR]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[YEAR]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[YEAR]"
-                      name="YEAR"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[MONTH]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[MONTH]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[MONTH]"
-                      name="MONTH"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[DAY]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[DAY]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[DAY]"
-                      name="DAY"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[DAY_OF_WEEK]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[DAY_OF_WEEK]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[DAY_OF_WEEK]"
-                      name="DAY_OF_WEEK"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[AIRLINE]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[AIRLINE]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[AIRLINE]"
-                      name="AIRLINE"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[FLIGHT_NUMBER]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[FLIGHT_NUMBER]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[FLIGHT_NUMBER]"
-                      name="FLIGHT_NUMBER"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[TAIL_NUMBER]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[TAIL_NUMBER]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[TAIL_NUMBER]"
-                      name="TAIL_NUMBER"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[ORIGIN_AIRPORT]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[ORIGIN_AIRPORT]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[ORIGIN_AIRPORT]"
-                      name="ORIGIN_AIRPORT"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[DESTINATION_AIRPORT]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[DESTINATION_AIRPORT]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[DESTINATION_AIRPORT]"
-                      name="DESTINATION_AIRPORT"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[SCHEDULED_DEPARTURE]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[SCHEDULED_DEPARTURE]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[SCHEDULED_DEPARTURE]"
-                      name="SCHEDULED_DEPARTURE"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[DEPARTURE_TIME]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[DEPARTURE_TIME]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[DEPARTURE_TIME]"
-                      name="DEPARTURE_TIME"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[DEPARTURE_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[DEPARTURE_DELAY]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[DEPARTURE_DELAY]"
-                      name="DEPARTURE_DELAY"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[TAXI_OUT]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[TAXI_OUT]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[TAXI_OUT]"
-                      name="TAXI_OUT"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[WHEELS_OFF]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[WHEELS_OFF]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[WHEELS_OFF]"
-                      name="WHEELS_OFF"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[SCHEDULED_TIME]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[SCHEDULED_TIME]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[SCHEDULED_TIME]"
-                      name="SCHEDULED_TIME"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[ELAPSED_TIME]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[ELAPSED_TIME]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[ELAPSED_TIME]"
-                      name="ELAPSED_TIME"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[AIR_TIME]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[AIR_TIME]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[AIR_TIME]"
-                      name="AIR_TIME"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[DISTANCE]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[DISTANCE]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[DISTANCE]"
-                      name="DISTANCE"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[WHEELS_ON]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[WHEELS_ON]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[WHEELS_ON]"
-                      name="WHEELS_ON"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[TAXI_IN]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[TAXI_IN]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[TAXI_IN]"
-                      name="TAXI_IN"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[SCHEDULED_ARRIVAL]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[SCHEDULED_ARRIVAL]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[SCHEDULED_ARRIVAL]"
-                      name="SCHEDULED_ARRIVAL"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[ARRIVAL_TIME]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[ARRIVAL_TIME]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[ARRIVAL_TIME]"
-                      name="ARRIVAL_TIME"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[ARRIVAL_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[ARRIVAL_DELAY]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[ARRIVAL_DELAY]"
-                      name="ARRIVAL_DELAY"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[DIVERTED]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[DIVERTED]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[DIVERTED]"
-                      name="DIVERTED"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[CANCELLED]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[CANCELLED]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[CANCELLED]"
-                      name="CANCELLED"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[CANCELLATION_REASON]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[CANCELLATION_REASON]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[CANCELLATION_REASON]"
-                      name="CANCELLATION_REASON"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[AIR_SYSTEM_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[AIR_SYSTEM_DELAY]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[AIR_SYSTEM_DELAY]"
-                      name="AIR_SYSTEM_DELAY"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[SECURITY_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[SECURITY_DELAY]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[SECURITY_DELAY]"
-                      name="SECURITY_DELAY"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[AIRLINE_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[AIRLINE_DELAY]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[AIRLINE_DELAY]"
-                      name="AIRLINE_DELAY"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[LATE_AIRCRAFT_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[LATE_AIRCRAFT_DELAY]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[LATE_AIRCRAFT_DELAY]"
-                      name="LATE_AIRCRAFT_DELAY"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[WEATHER_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[WEATHER_DELAY]"
-                      length="50"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[WEATHER_DELAY]"
-                      name="WEATHER_DELAY"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[YEAR]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="YEAR" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[MONTH]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="MONTH" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[DAY]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="DAY" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[DAY_OF_WEEK]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="DAY_OF_WEEK" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[AIRLINE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="AIRLINE" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[FLIGHT_NUMBER]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="FLIGHT_NUMBER" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[TAIL_NUMBER]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="TAIL_NUMBER" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[ORIGIN_AIRPORT]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="ORIGIN_AIRPORT" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[DESTINATION_AIRPORT]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="DESTINATION_AIRPORT" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[SCHEDULED_DEPARTURE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="SCHEDULED_DEPARTURE" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[DEPARTURE_TIME]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="DEPARTURE_TIME" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[DEPARTURE_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="DEPARTURE_DELAY" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[TAXI_OUT]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="TAXI_OUT" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[WHEELS_OFF]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="WHEELS_OFF" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[SCHEDULED_TIME]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="SCHEDULED_TIME" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[ELAPSED_TIME]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="ELAPSED_TIME" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[AIR_TIME]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="AIR_TIME" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[DISTANCE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="DISTANCE" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[WHEELS_ON]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="WHEELS_ON" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[TAXI_IN]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="TAXI_IN" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[SCHEDULED_ARRIVAL]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="SCHEDULED_ARRIVAL" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[ARRIVAL_TIME]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="ARRIVAL_TIME" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[ARRIVAL_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="ARRIVAL_DELAY" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[DIVERTED]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="DIVERTED" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[CANCELLED]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="CANCELLED" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[CANCELLATION_REASON]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="CANCELLATION_REASON" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[AIR_SYSTEM_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="AIR_SYSTEM_DELAY" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[SECURITY_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="SECURITY_DELAY" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[AIRLINE_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="AIRLINE_DELAY" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[LATE_AIRCRAFT_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="LATE_AIRCRAFT_DELAY" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].ExternalColumns[WEATHER_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="WEATHER_DELAY" />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Error Output]"
-                  isErrorOut="true"
-                  name="Flat File Source Error Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
-                      codePage="1252"
-                      dataType="text"
-                      description="Flat File Source Error Output Column"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
-                      name="Flat File Source Error Output Column" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
             <component
               refId="Package\Data Flow Task\Flat File Source Airline"
               componentClassID="Microsoft.FlatFileSource"
@@ -1669,12 +708,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Airport.Outputs[Flat File Source Output].Columns[LATITUDE]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="decimal"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Airport.Outputs[Flat File Source Output].ExternalColumns[LATITUDE]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Airport.Outputs[Flat File Source Output].Columns[LATITUDE]"
                       name="LATITUDE"
                       truncationRowDisposition="FailComponent">
@@ -1691,12 +728,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Airport.Outputs[Flat File Source Output].Columns[LONGITUDE]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="decimal"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Airport.Outputs[Flat File Source Output].ExternalColumns[LONGITUDE]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Airport.Outputs[Flat File Source Output].Columns[LONGITUDE]"
                       name="LONGITUDE"
                       truncationRowDisposition="FailComponent">
@@ -1746,15 +781,11 @@
                       name="COUNTRY" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Airport.Outputs[Flat File Source Output].ExternalColumns[LATITUDE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="decimal"
                       name="LATITUDE" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Airport.Outputs[Flat File Source Output].ExternalColumns[LONGITUDE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="decimal"
                       name="LONGITUDE" />
                   </externalMetadataColumns>
                 </output>
@@ -1820,12 +851,10 @@
                   <outputColumns>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[YEAR]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[YEAR]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[YEAR]"
                       name="YEAR"
                       truncationRowDisposition="FailComponent">
@@ -1842,12 +871,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[MONTH]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[MONTH]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[MONTH]"
                       name="MONTH"
                       truncationRowDisposition="FailComponent">
@@ -1864,12 +891,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[DAY]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[DAY]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[DAY]"
                       name="DAY"
                       truncationRowDisposition="FailComponent">
@@ -1886,12 +911,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[DAY_OF_WEEK]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[DAY_OF_WEEK]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[DAY_OF_WEEK]"
                       name="DAY_OF_WEEK"
                       truncationRowDisposition="FailComponent">
@@ -1930,12 +953,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[FLIGHT_NUMBER]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[FLIGHT_NUMBER]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[FLIGHT_NUMBER]"
                       name="FLIGHT_NUMBER"
                       truncationRowDisposition="FailComponent">
@@ -2018,12 +1039,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[SCHEDULED_DEPARTURE]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[SCHEDULED_DEPARTURE]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[SCHEDULED_DEPARTURE]"
                       name="SCHEDULED_DEPARTURE"
                       truncationRowDisposition="FailComponent">
@@ -2040,12 +1059,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[DEPARTURE_TIME]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[DEPARTURE_TIME]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[DEPARTURE_TIME]"
                       name="DEPARTURE_TIME"
                       truncationRowDisposition="FailComponent">
@@ -2062,12 +1079,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[DEPARTURE_DELAY]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[DEPARTURE_DELAY]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[DEPARTURE_DELAY]"
                       name="DEPARTURE_DELAY"
                       truncationRowDisposition="FailComponent">
@@ -2084,12 +1099,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[TAXI_OUT]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[TAXI_OUT]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[TAXI_OUT]"
                       name="TAXI_OUT"
                       truncationRowDisposition="FailComponent">
@@ -2106,12 +1119,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[WHEELS_OFF]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[WHEELS_OFF]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[WHEELS_OFF]"
                       name="WHEELS_OFF"
                       truncationRowDisposition="FailComponent">
@@ -2128,12 +1139,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[SCHEDULED_TIME]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[SCHEDULED_TIME]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[SCHEDULED_TIME]"
                       name="SCHEDULED_TIME"
                       truncationRowDisposition="FailComponent">
@@ -2150,12 +1159,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[ELAPSED_TIME]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[ELAPSED_TIME]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[ELAPSED_TIME]"
                       name="ELAPSED_TIME"
                       truncationRowDisposition="FailComponent">
@@ -2172,12 +1179,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[AIR_TIME]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[AIR_TIME]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[AIR_TIME]"
                       name="AIR_TIME"
                       truncationRowDisposition="FailComponent">
@@ -2194,12 +1199,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[DISTANCE]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[DISTANCE]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[DISTANCE]"
                       name="DISTANCE"
                       truncationRowDisposition="FailComponent">
@@ -2216,12 +1219,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[WHEELS_ON]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[WHEELS_ON]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[WHEELS_ON]"
                       name="WHEELS_ON"
                       truncationRowDisposition="FailComponent">
@@ -2238,12 +1239,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[TAXI_IN]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[TAXI_IN]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[TAXI_IN]"
                       name="TAXI_IN"
                       truncationRowDisposition="FailComponent">
@@ -2260,12 +1259,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[SCHEDULED_ARRIVAL]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[SCHEDULED_ARRIVAL]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[SCHEDULED_ARRIVAL]"
                       name="SCHEDULED_ARRIVAL"
                       truncationRowDisposition="FailComponent">
@@ -2282,12 +1279,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[ARRIVAL_TIME]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[ARRIVAL_TIME]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[ARRIVAL_TIME]"
                       name="ARRIVAL_TIME"
                       truncationRowDisposition="FailComponent">
@@ -2304,12 +1299,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[ARRIVAL_DELAY]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[ARRIVAL_DELAY]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[ARRIVAL_DELAY]"
                       name="ARRIVAL_DELAY"
                       truncationRowDisposition="FailComponent">
@@ -2326,12 +1319,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[DIVERTED]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[DIVERTED]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[DIVERTED]"
                       name="DIVERTED"
                       truncationRowDisposition="FailComponent">
@@ -2348,12 +1339,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[CANCELLED]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[CANCELLED]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[CANCELLED]"
                       name="CANCELLED"
                       truncationRowDisposition="FailComponent">
@@ -2392,12 +1381,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[AIR_SYSTEM_DELAY]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[AIR_SYSTEM_DELAY]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[AIR_SYSTEM_DELAY]"
                       name="AIR_SYSTEM_DELAY"
                       truncationRowDisposition="FailComponent">
@@ -2414,12 +1401,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[SECURITY_DELAY]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[SECURITY_DELAY]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[SECURITY_DELAY]"
                       name="SECURITY_DELAY"
                       truncationRowDisposition="FailComponent">
@@ -2436,12 +1421,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[AIRLINE_DELAY]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[AIRLINE_DELAY]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[AIRLINE_DELAY]"
                       name="AIRLINE_DELAY"
                       truncationRowDisposition="FailComponent">
@@ -2458,12 +1441,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[LATE_AIRCRAFT_DELAY]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[LATE_AIRCRAFT_DELAY]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[LATE_AIRCRAFT_DELAY]"
                       name="LATE_AIRCRAFT_DELAY"
                       truncationRowDisposition="FailComponent">
@@ -2480,12 +1461,10 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[WEATHER_DELAY]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[WEATHER_DELAY]"
-                      length="50"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[WEATHER_DELAY]"
                       name="WEATHER_DELAY"
                       truncationRowDisposition="FailComponent">
@@ -2505,27 +1484,19 @@
                     isUsed="True">
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[YEAR]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="YEAR" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[MONTH]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="MONTH" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[DAY]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="DAY" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[DAY_OF_WEEK]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="DAY_OF_WEEK" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[AIRLINE]"
@@ -2535,9 +1506,7 @@
                       name="AIRLINE" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[FLIGHT_NUMBER]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="FLIGHT_NUMBER" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[TAIL_NUMBER]"
@@ -2559,99 +1528,67 @@
                       name="DESTINATION_AIRPORT" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[SCHEDULED_DEPARTURE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="SCHEDULED_DEPARTURE" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[DEPARTURE_TIME]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="DEPARTURE_TIME" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[DEPARTURE_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="DEPARTURE_DELAY" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[TAXI_OUT]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="TAXI_OUT" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[WHEELS_OFF]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="WHEELS_OFF" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[SCHEDULED_TIME]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="SCHEDULED_TIME" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[ELAPSED_TIME]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="ELAPSED_TIME" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[AIR_TIME]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="AIR_TIME" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[DISTANCE]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="DISTANCE" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[WHEELS_ON]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="WHEELS_ON" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[TAXI_IN]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="TAXI_IN" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[SCHEDULED_ARRIVAL]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="SCHEDULED_ARRIVAL" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[ARRIVAL_TIME]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="ARRIVAL_TIME" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[ARRIVAL_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="ARRIVAL_DELAY" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[DIVERTED]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="DIVERTED" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[CANCELLED]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="CANCELLED" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[CANCELLATION_REASON]"
@@ -2661,33 +1598,23 @@
                       name="CANCELLATION_REASON" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[AIR_SYSTEM_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="AIR_SYSTEM_DELAY" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[SECURITY_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="SECURITY_DELAY" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[AIRLINE_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="AIRLINE_DELAY" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[LATE_AIRCRAFT_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="LATE_AIRCRAFT_DELAY" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].ExternalColumns[WEATHER_DELAY]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="i4"
                       name="WEATHER_DELAY" />
                   </externalMetadataColumns>
                 </output>
@@ -2770,14 +1697,6 @@
                   name="ADO NET Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Airline.Inputs[ADO NET Destination Input].Columns[IATA_CODE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="IATA_CODE"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Airline.Inputs[ADO NET Destination Input].ExternalColumns[iata_code]"
-                      lineageId="Package\Data Flow Task\Flat File Source Airline.Outputs[Flat File Source Output].Columns[IATA_CODE]" />
-                    <inputColumn
                       refId="Package\Data Flow Task\Populate Dimension Airline.Inputs[ADO NET Destination Input].Columns[AIRLINE]"
                       cachedCodepage="1252"
                       cachedDataType="str"
@@ -2785,18 +1704,30 @@
                       cachedName="AIRLINE"
                       externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Airline.Inputs[ADO NET Destination Input].ExternalColumns[airline]"
                       lineageId="Package\Data Flow Task\Flat File Source Airline.Outputs[Flat File Source Output].Columns[AIRLINE]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Populate Dimension Airline.Inputs[ADO NET Destination Input].Columns[IATA_CODE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="IATA_CODE"
+                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Airline.Inputs[ADO NET Destination Input].ExternalColumns[iata_code_BK]"
+                      lineageId="Package\Data Flow Task\Flat File Source Airline.Outputs[Flat File Source Output].Columns[IATA_CODE]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Airline.Inputs[ADO NET Destination Input].ExternalColumns[iata_code]"
+                      refId="Package\Data Flow Task\Populate Dimension Airline.Inputs[ADO NET Destination Input].ExternalColumns[airline_PK]"
+                      dataType="i4"
+                      name="airline_PK" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Populate Dimension Airline.Inputs[ADO NET Destination Input].ExternalColumns[iata_code_BK]"
                       dataType="wstr"
                       length="50"
-                      name="iata_code" />
+                      name="iata_code_BK" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Populate Dimension Airline.Inputs[ADO NET Destination Input].ExternalColumns[airline]"
                       dataType="wstr"
-                      length="50"
+                      length="300"
                       name="airline" />
                   </externalMetadataColumns>
                 </input>
@@ -2876,14 +1807,6 @@
                   name="ADO NET Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Airport.Inputs[ADO NET Destination Input].Columns[IATA_CODE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="IATA_CODE"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Airport.Inputs[ADO NET Destination Input].ExternalColumns[iata_code]"
-                      lineageId="Package\Data Flow Task\Flat File Source Airport.Outputs[Flat File Source Output].Columns[IATA_CODE]" />
-                    <inputColumn
                       refId="Package\Data Flow Task\Populate Dimension Airport.Inputs[ADO NET Destination Input].Columns[AIRPORT]"
                       cachedCodepage="1252"
                       cachedDataType="str"
@@ -2917,28 +1840,36 @@
                       lineageId="Package\Data Flow Task\Flat File Source Airport.Outputs[Flat File Source Output].Columns[COUNTRY]" />
                     <inputColumn
                       refId="Package\Data Flow Task\Populate Dimension Airport.Inputs[ADO NET Destination Input].Columns[LATITUDE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
+                      cachedDataType="decimal"
                       cachedName="LATITUDE"
                       externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Airport.Inputs[ADO NET Destination Input].ExternalColumns[latitude]"
                       lineageId="Package\Data Flow Task\Flat File Source Airport.Outputs[Flat File Source Output].Columns[LATITUDE]" />
                     <inputColumn
                       refId="Package\Data Flow Task\Populate Dimension Airport.Inputs[ADO NET Destination Input].Columns[LONGITUDE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
+                      cachedDataType="decimal"
                       cachedName="LONGITUDE"
                       externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Airport.Inputs[ADO NET Destination Input].ExternalColumns[longitude]"
                       lineageId="Package\Data Flow Task\Flat File Source Airport.Outputs[Flat File Source Output].Columns[LONGITUDE]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Populate Dimension Airport.Inputs[ADO NET Destination Input].Columns[IATA_CODE]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="IATA_CODE"
+                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Airport.Inputs[ADO NET Destination Input].ExternalColumns[iata_code_BK]"
+                      lineageId="Package\Data Flow Task\Flat File Source Airport.Outputs[Flat File Source Output].Columns[IATA_CODE]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Airport.Inputs[ADO NET Destination Input].ExternalColumns[iata_code]"
+                      refId="Package\Data Flow Task\Populate Dimension Airport.Inputs[ADO NET Destination Input].ExternalColumns[airport_PK]"
+                      dataType="i4"
+                      name="airport_PK" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Populate Dimension Airport.Inputs[ADO NET Destination Input].ExternalColumns[iata_code_BK]"
                       dataType="wstr"
                       length="50"
-                      name="iata_code" />
+                      name="iata_code_BK" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Populate Dimension Airport.Inputs[ADO NET Destination Input].ExternalColumns[airport]"
                       dataType="wstr"
@@ -2947,28 +1878,30 @@
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Populate Dimension Airport.Inputs[ADO NET Destination Input].ExternalColumns[city]"
                       dataType="wstr"
-                      length="100"
+                      length="50"
                       name="city" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Populate Dimension Airport.Inputs[ADO NET Destination Input].ExternalColumns[state]"
                       dataType="wstr"
-                      length="100"
+                      length="50"
                       name="state" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Populate Dimension Airport.Inputs[ADO NET Destination Input].ExternalColumns[country]"
                       dataType="wstr"
-                      length="100"
+                      length="50"
                       name="country" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Populate Dimension Airport.Inputs[ADO NET Destination Input].ExternalColumns[latitude]"
-                      dataType="wstr"
-                      length="100"
-                      name="latitude" />
+                      dataType="numeric"
+                      name="latitude"
+                      precision="9"
+                      scale="6" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Populate Dimension Airport.Inputs[ADO NET Destination Input].ExternalColumns[longitude]"
-                      dataType="wstr"
-                      length="100"
-                      name="longitude" />
+                      dataType="numeric"
+                      name="longitude"
+                      precision="9"
+                      scale="6" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -2990,298 +1923,6 @@
                       refId="Package\Data Flow Task\Populate Dimension Airport.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\Data Flow Task\Populate Dimension Airport.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Data Flow Task\Populate Dimension Date"
-              componentClassID="Microsoft.ManagedComponentHost"
-              contactInfo="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
-              description="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination."
-              name="Populate Dimension Date"
-              usesDispositions="true"
-              version="2">
-              <properties>
-                <property
-                  dataType="System.String"
-                  description="The Destination database table name."
-                  expressionType="Notify"
-                  name="TableOrViewName"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."dates"</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specify the number of rows per batch. The default is 0 which uses the same size as SSIS internal buffer. "
-                  expressionType="Notify"
-                  name="BatchSize">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="The number of seconds before a command times out. A value of 0 indicates infinite time-out. "
-                  expressionType="Notify"
-                  name="CommandTimeout">30</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Specifies whether to use the SqlBulkCopy interface to improve the performance of bulk insert operations. Only certain providers support this interface."
-                  expressionType="Notify"
-                  name="UseBulkInsertWhenPossible">true</property>
-                <property
-                  dataType="System.String"
-                  name="UserComponentTypeName">Microsoft.ADONETDestination</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Data Flow Task\Populate Dimension Date.Connections[IDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[localhost.AirflightsDelay1]"
-                  connectionManagerRefId="Package.ConnectionManagers[localhost.AirflightsDelay1]"
-                  description="Managed connection manager"
-                  name="IDbConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input]"
-                  errorRowDisposition="FailComponent"
-                  hasSideEffects="true"
-                  name="ADO NET Destination Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].Columns[YEAR]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="YEAR"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[year]"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[YEAR]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].Columns[MONTH]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="MONTH"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[month]"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[MONTH]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].Columns[DAY]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="DAY"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[day]"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[DAY]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].Columns[DAY_OF_WEEK]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="DAY_OF_WEEK"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[day_of_week]"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[DAY_OF_WEEK]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].Columns[FLIGHT_NUMBER]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="FLIGHT_NUMBER"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[flight_number]"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[FLIGHT_NUMBER]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].Columns[SCHEDULED_DEPARTURE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="SCHEDULED_DEPARTURE"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[scheduled_departure]"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[SCHEDULED_DEPARTURE]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].Columns[DEPARTURE_TIME]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="DEPARTURE_TIME"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[departure_time]"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[DEPARTURE_TIME]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].Columns[DEPARTURE_DELAY]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="DEPARTURE_DELAY"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[departure_delay]"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[DEPARTURE_DELAY]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].Columns[TAXI_OUT]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="TAXI_OUT"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[taxi_out]"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[TAXI_OUT]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].Columns[SCHEDULED_TIME]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="SCHEDULED_TIME"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[scheduled_time]"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[SCHEDULED_TIME]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].Columns[ELAPSED_TIME]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="ELAPSED_TIME"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[elapsed_time]"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[ELAPSED_TIME]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].Columns[AIR_TIME]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="AIR_TIME"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[air_time]"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[AIR_TIME]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].Columns[WHEELS_ON]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="WHEELS_ON"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[wheels_on]"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[WHEELS_ON]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].Columns[TAXI_IN]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="TAXI_IN"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[taxi_in]"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[TAXI_IN]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].Columns[SCHEDULED_ARRIVAL]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="SCHEDULED_ARRIVAL"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[scheduled_arrival]"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[SCHEDULED_ARRIVAL]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].Columns[ARRIVAL_TIME]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="ARRIVAL_TIME"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[arrival_time]"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[ARRIVAL_TIME]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].Columns[ARRIVAL_DELAY]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="ARRIVAL_DELAY"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[arrival_delay]"
-                      lineageId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output].Columns[ARRIVAL_DELAY]" />
-                  </inputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[id]"
-                      dataType="i4"
-                      name="id" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[flight_number]"
-                      dataType="i4"
-                      name="flight_number" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[year]"
-                      dataType="i4"
-                      name="year" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[month]"
-                      dataType="i4"
-                      name="month" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[day]"
-                      dataType="i4"
-                      name="day" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[day_of_week]"
-                      dataType="i4"
-                      name="day_of_week" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[scheduled_departure]"
-                      dataType="i4"
-                      name="scheduled_departure" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[departure_time]"
-                      dataType="i4"
-                      name="departure_time" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[departure_delay]"
-                      dataType="i4"
-                      name="departure_delay" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[taxi_out]"
-                      dataType="i4"
-                      name="taxi_out" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[wheels_of]"
-                      dataType="i4"
-                      name="wheels_of" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[scheduled_time]"
-                      dataType="i4"
-                      name="scheduled_time" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[elapsed_time]"
-                      dataType="i4"
-                      name="elapsed_time" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[air_time]"
-                      dataType="i4"
-                      name="air_time" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[wheels_on]"
-                      dataType="i4"
-                      name="wheels_on" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[taxi_in]"
-                      dataType="i4"
-                      name="taxi_in" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[scheduled_arrival]"
-                      dataType="i4"
-                      name="scheduled_arrival" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[arrival_time]"
-                      dataType="i4"
-                      name="arrival_time" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input].ExternalColumns[arrival_delay]"
-                      dataType="i4"
-                      name="arrival_delay" />
-                  </externalMetadataColumns>
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Data Flow Task\Populate Dimension Date.Outputs[ADO NET Destination Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="ADO NET Destination Error Output"
-                  synchronousInputId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Populate Dimension Date.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Date.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Populate Dimension Date.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -3347,14 +1988,6 @@
                       externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[airline]"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[AIRLINE]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[FLIGHT_NUMBER]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="FLIGHT_NUMBER"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[flight_number]"
-                      lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[FLIGHT_NUMBER]" />
-                    <inputColumn
                       refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[TAIL_NUMBER]"
                       cachedCodepage="1252"
                       cachedDataType="str"
@@ -3379,26 +2012,86 @@
                       externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[destination_airport]"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[DESTINATION_AIRPORT]" />
                     <inputColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[SCHEDULED_DEPARTURE]"
+                      cachedDataType="i4"
+                      cachedName="SCHEDULED_DEPARTURE"
+                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[scheduled_departure]"
+                      lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[SCHEDULED_DEPARTURE]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[DEPARTURE_TIME]"
+                      cachedDataType="i4"
+                      cachedName="DEPARTURE_TIME"
+                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[departure_time]"
+                      lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[DEPARTURE_TIME]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[TAXI_OUT]"
+                      cachedDataType="i4"
+                      cachedName="TAXI_OUT"
+                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[taxi_out]"
+                      lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[TAXI_OUT]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[WHEELS_OFF]"
+                      cachedDataType="i4"
+                      cachedName="WHEELS_OFF"
+                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[wheels_off]"
+                      lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[WHEELS_OFF]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[SCHEDULED_TIME]"
+                      cachedDataType="i4"
+                      cachedName="SCHEDULED_TIME"
+                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[scheduled_time]"
+                      lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[SCHEDULED_TIME]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[ELAPSED_TIME]"
+                      cachedDataType="i4"
+                      cachedName="ELAPSED_TIME"
+                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[elapsed_time]"
+                      lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[ELAPSED_TIME]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[AIR_TIME]"
+                      cachedDataType="i4"
+                      cachedName="AIR_TIME"
+                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[air_time]"
+                      lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[AIR_TIME]" />
+                    <inputColumn
                       refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[DISTANCE]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
+                      cachedDataType="i4"
                       cachedName="DISTANCE"
                       externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[distance]"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[DISTANCE]" />
                     <inputColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[WHEELS_ON]"
+                      cachedDataType="i4"
+                      cachedName="WHEELS_ON"
+                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[wheels_on]"
+                      lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[WHEELS_ON]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[TAXI_IN]"
+                      cachedDataType="i4"
+                      cachedName="TAXI_IN"
+                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[taxi_in]"
+                      lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[TAXI_IN]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[SCHEDULED_ARRIVAL]"
+                      cachedDataType="i4"
+                      cachedName="SCHEDULED_ARRIVAL"
+                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[scheduled_arrival]"
+                      lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[SCHEDULED_ARRIVAL]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[ARRIVAL_TIME]"
+                      cachedDataType="i4"
+                      cachedName="ARRIVAL_TIME"
+                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[arrival_time]"
+                      lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[ARRIVAL_TIME]" />
+                    <inputColumn
                       refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[DIVERTED]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
+                      cachedDataType="i4"
                       cachedName="DIVERTED"
                       externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[diverted]"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[DIVERTED]" />
                     <inputColumn
                       refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[CANCELLED]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
+                      cachedDataType="i4"
                       cachedName="CANCELLED"
                       externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[cancelled]"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[CANCELLED]" />
@@ -3411,76 +2104,90 @@
                       externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[cancellation_reason]"
                       lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[CANCELLATION_REASON]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[AIR_SYSTEM_DELAY]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="AIR_SYSTEM_DELAY"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[air_system_delay]"
-                      lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[AIR_SYSTEM_DELAY]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[SECURITY_DELAY]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="SECURITY_DELAY"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[security_delay]"
-                      lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[SECURITY_DELAY]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[AIRLINE_DELAY]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="AIRLINE_DELAY"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[airline_delay]"
-                      lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[AIRLINE_DELAY]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[LATE_AIRCRAFT_DELAY]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="LATE_AIRCRAFT_DELAY"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[late_aircraft_delay]"
-                      lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[LATE_AIRCRAFT_DELAY]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[WEATHER_DELAY]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="WEATHER_DELAY"
-                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[weather_delay]"
-                      lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[WEATHER_DELAY]" />
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].Columns[FLIGHT_NUMBER]"
+                      cachedDataType="i4"
+                      cachedName="FLIGHT_NUMBER"
+                      externalMetadataColumnId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[flight_number_BK]"
+                      lineageId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output].Columns[FLIGHT_NUMBER]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[flight_PK]"
+                      dataType="i4"
+                      name="flight_PK" />
+                    <externalMetadataColumn
                       refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[airline]"
                       dataType="wstr"
-                      length="50"
+                      length="300"
                       name="airline" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[flight_number]"
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[flight_number_BK]"
                       dataType="i4"
-                      name="flight_number" />
+                      name="flight_number_BK" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[tail_number]"
                       dataType="wstr"
-                      length="50"
+                      length="300"
                       name="tail_number" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[origin_airport]"
                       dataType="wstr"
-                      length="50"
+                      length="300"
                       name="origin_airport" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[destination_airport]"
                       dataType="wstr"
-                      length="50"
+                      length="300"
                       name="destination_airport" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[scheduled_departure]"
+                      dataType="i4"
+                      name="scheduled_departure" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[departure_time]"
+                      dataType="i4"
+                      name="departure_time" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[taxi_out]"
+                      dataType="i4"
+                      name="taxi_out" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[wheels_off]"
+                      dataType="i4"
+                      name="wheels_off" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[scheduled_time]"
+                      dataType="i4"
+                      name="scheduled_time" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[elapsed_time]"
+                      dataType="i4"
+                      name="elapsed_time" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[air_time]"
+                      dataType="i4"
+                      name="air_time" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[distance]"
                       dataType="i4"
                       name="distance" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[wheels_on]"
+                      dataType="i4"
+                      name="wheels_on" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[taxi_in]"
+                      dataType="i4"
+                      name="taxi_in" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[scheduled_arrival]"
+                      dataType="i4"
+                      name="scheduled_arrival" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[arrival_time]"
+                      dataType="i4"
+                      name="arrival_time" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[diverted]"
                       dataType="i4"
@@ -3492,28 +2199,8 @@
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[cancellation_reason]"
                       dataType="wstr"
-                      length="50"
+                      length="300"
                       name="cancellation_reason" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[air_system_delay]"
-                      dataType="i4"
-                      name="air_system_delay" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[security_delay]"
-                      dataType="i4"
-                      name="security_delay" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[airline_delay]"
-                      dataType="i4"
-                      name="airline_delay" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[late_aircraft_delay]"
-                      dataType="i4"
-                      name="late_aircraft_delay" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input].ExternalColumns[weather_delay]"
-                      dataType="i4"
-                      name="weather_delay" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -3559,11 +2246,6 @@
               endId="Package\Data Flow Task\Populate Dimension Flight.Inputs[ADO NET Destination Input]"
               name="Flat File Source Output"
               startId="Package\Data Flow Task\Flat File Source Flight.Outputs[Flat File Source Output]" />
-            <path
-              refId="Package\Data Flow Task.Paths[Flat File Source Output3]"
-              endId="Package\Data Flow Task\Populate Dimension Date.Inputs[ADO NET Destination Input]"
-              name="Flat File Source Output"
-              startId="Package\Data Flow Task\Flat File Date.Outputs[Flat File Source Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -3594,73 +2276,43 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="182.4,41.6"
-          Id="Package\Data Flow Task\Flat File Source Airline"
-          TopLeft="56.8000000000001,178.933333333333" />
-        <NodeLayout
-          Size="206.4,41.6"
-          Id="Package\Data Flow Task\Populate Dimension Airport"
-          TopLeft="338.666666666667,350.666666666667" />
-        <NodeLayout
-          Size="204,41.6"
-          Id="Package\Data Flow Task\Populate Dimension Airline"
-          TopLeft="50.6666666666667,348" />
-        <NodeLayout
-          Size="185.6,41.6"
-          Id="Package\Data Flow Task\Flat File Source Airport"
-          TopLeft="345.066666666667,173.466666666667" />
-        <NodeLayout
-          Size="196.8,43.2"
-          Id="Package\Data Flow Task\Populate Dimension Date"
-          TopLeft="840,347.333333333333" />
+          Size="200.8,41.6"
+          Id="Package\Data Flow Task\Populate Dimension Flight"
+          TopLeft="489.285712400261,211.686272579355" />
         <NodeLayout
           Size="179.2,41.6"
           Id="Package\Data Flow Task\Flat File Source Flight"
-          TopLeft="609.466666666667,168.4" />
+          TopLeft="498.752379066928,38.399998176799" />
         <NodeLayout
-          Size="140,41.6"
-          Id="Package\Data Flow Task\Flat File Date"
-          TopLeft="864.666666666667,169.333333333333" />
+          Size="204,41.6"
+          Id="Package\Data Flow Task\Populate Dimension Airline"
+          TopLeft="42.0952379492678,206.529409780634" />
         <NodeLayout
-          Size="200.8,41.6"
-          Id="Package\Data Flow Task\Populate Dimension Flight"
-          TopLeft="600,349.333333333333" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Flat File Source Output3]"
-          TopLeft="936.533333333333,210.933333333333">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,136.4"
-              Start="0,0"
-              End="0,128.9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,128.9" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="182.4,41.6"
+          Id="Package\Data Flow Task\Flat File Source Airline"
+          TopLeft="48.2285712826012,37.4627431139673" />
+        <NodeLayout
+          Size="206.4,41.6"
+          Id="Package\Data Flow Task\Populate Dimension Airport"
+          TopLeft="260.095236757175,206.13725287499" />
+        <NodeLayout
+          Size="185.6,41.6"
+          Id="Package\Data Flow Task\Flat File Source Airport"
+          TopLeft="266.495236757175,28.9372528749907" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output2]"
-          TopLeft="699.733333333333,210">
+          TopLeft="589.019045733595,79.999998176799">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,139.333333333333"
+              EndConnector="0,131.686274402556"
               Start="0,0"
-              End="0,131.833333333333">
+              End="0,124.186274402556">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,131.833333333333" />
+                    End="0,124.186274402556" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3671,7 +2323,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output1]"
-          TopLeft="439.866666666667,215.066666666667">
+          TopLeft="361.295236757175,70.5372528749907">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -3693,7 +2345,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output]"
-          TopLeft="150.333333333333,220.533333333333">
+          TopLeft="141.761904615934,79.0627431139673">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -3717,7 +2369,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Populate Dimension Airport">
+    design-time-name="Package\Data Flow Task\Populate Dimension Flight">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -3733,15 +2385,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Populate Dimension Date">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Populate Dimension Flight">
+    design-time-name="Package\Data Flow Task\Populate Dimension Airport">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
