@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="Package2"
   DTS:PackageType="5"
-  DTS:VersionBuild="51"
-  DTS:VersionGUID="{2D4BF282-5662-4574-BF4B-8152D094F948}">
+  DTS:VersionBuild="53"
+  DTS:VersionGUID="{31BC56D8-BF70-40D4-9F69-24166C22C9C6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -30,7 +30,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\admin\Desktop\airport\flights.csv">
+          DTS:ConnectionString="C:\Users\admin\source\repos\airport\airport\assets\flights.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -39,7 +39,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="YEAR"
-              DTS:DTSID="{D6DA8B68-9FCD-43FB-85B2-5F246512A318}"
+              DTS:DTSID="{A4B325A0-EF94-44F3-9A72-FCCACCB76DB7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="MONTH"
-              DTS:DTSID="{49909D72-6B8B-46AD-94A5-0C79660399B2}"
+              DTS:DTSID="{95E22EE1-C8E3-4CED-A524-036A1E7EA8B0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DAY"
-              DTS:DTSID="{75DAF3F1-C11C-42D0-AD05-50BE6B42248E}"
+              DTS:DTSID="{5E01E073-AB76-43D6-8F9A-60EB74301823}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -66,7 +66,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DAY_OF_WEEK"
-              DTS:DTSID="{B6AF1BD4-2B88-458C-A521-2B32AA46340F}"
+              DTS:DTSID="{DD47EAB2-6AA7-4322-8DAE-D7379A30CB90}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -75,7 +75,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AIRLINE"
-              DTS:DTSID="{95B2EB8D-8A18-418E-8AFB-E9290CAADE96}"
+              DTS:DTSID="{2C99AE72-2FEB-42C8-812E-88FFFDD9F681}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -84,7 +84,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="FLIGHT_NUMBER"
-              DTS:DTSID="{F02EB81B-7943-4E58-9448-C67A787A2C5D}"
+              DTS:DTSID="{4CBB9CE7-3479-4C94-B3C4-91071E862F68}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -93,7 +93,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="TAIL_NUMBER"
-              DTS:DTSID="{889537F6-0AF7-445D-B4A6-EC53129F6E50}"
+              DTS:DTSID="{50306508-6C3B-4633-AF89-DB98035EA200}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -102,7 +102,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ORIGIN_AIRPORT"
-              DTS:DTSID="{303EC14E-BF3B-4372-B8D4-B8A619793A49}"
+              DTS:DTSID="{952FE17A-BD39-40A1-8A03-F1809663BBC3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -111,7 +111,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DESTINATION_AIRPORT"
-              DTS:DTSID="{ADBAEE7E-513E-4DEA-97A0-70003DD0F9AB}"
+              DTS:DTSID="{58C8568E-9CF9-4FEE-A228-10874DBD0F9B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -120,7 +120,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SCHEDULED_DEPARTURE"
-              DTS:DTSID="{58854D76-0A61-445F-AB93-315803D14299}"
+              DTS:DTSID="{402D957A-52C6-44E5-B972-A24F38976E3F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -129,7 +129,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DEPARTURE_TIME"
-              DTS:DTSID="{41C8EA1F-AE6E-4189-A8A3-E84F3B111F9C}"
+              DTS:DTSID="{6357CCB9-557F-4354-B895-3EAEB920E0E2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -138,7 +138,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DEPARTURE_DELAY"
-              DTS:DTSID="{54FF0725-64B0-4B95-BA3C-6FC2A6E8EA20}"
+              DTS:DTSID="{FD8E0636-7B9E-44F1-B82F-864AC6CADC76}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -147,7 +147,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="TAXI_OUT"
-              DTS:DTSID="{FA4CFA4B-6B1E-402E-AB23-29051E85A947}"
+              DTS:DTSID="{DD5FE355-DB8C-4CEE-9756-3A87FA0E09A6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -156,7 +156,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="WHEELS_OFF"
-              DTS:DTSID="{EC6482A2-E2AA-4702-A880-907C6194D3F8}"
+              DTS:DTSID="{322DEED2-6B7F-416E-B864-2E320512B74E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -165,7 +165,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SCHEDULED_TIME"
-              DTS:DTSID="{6820A0A8-DAFE-403C-8CFF-99C01A5675D4}"
+              DTS:DTSID="{BFC87778-897A-4357-B4B4-8376CDDE6762}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -174,7 +174,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ELAPSED_TIME"
-              DTS:DTSID="{EAEE7E04-BF28-404D-944D-3B7A83C84876}"
+              DTS:DTSID="{199DFC7F-B43A-4710-AB5A-98636E1A3F58}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -183,7 +183,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AIR_TIME"
-              DTS:DTSID="{5E77C122-8B2B-4B64-BFC2-C6CE368012F7}"
+              DTS:DTSID="{33B286D7-6115-4FEC-BB2F-5B23D37E270C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -192,7 +192,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DISTANCE"
-              DTS:DTSID="{7B805BE2-F433-4800-82EE-0D1C15783D9A}"
+              DTS:DTSID="{A4A935A2-37C6-4EAD-946F-1D5500EF3482}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -201,7 +201,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="WHEELS_ON"
-              DTS:DTSID="{AEB7E7A0-798E-49F0-AE40-7BE32EFFCD46}"
+              DTS:DTSID="{B52F62F8-BFAB-45E3-A75D-2E9C98158167}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -210,7 +210,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="TAXI_IN"
-              DTS:DTSID="{EB2E820C-15DC-41ED-BE55-6E2074D6B850}"
+              DTS:DTSID="{843BA1B2-835D-4217-B096-1E29F32E7385}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -219,7 +219,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SCHEDULED_ARRIVAL"
-              DTS:DTSID="{1A461267-D91C-4AFB-AC71-A1A5A9F4D616}"
+              DTS:DTSID="{899942BE-1CB6-44E9-9A18-BDB4A0C0FC9C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -228,7 +228,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ARRIVAL_TIME"
-              DTS:DTSID="{24AC7EAD-960E-4DDA-9BF1-ED9C58299CA8}"
+              DTS:DTSID="{72D9B091-38B1-4916-8373-0C7767741B42}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -237,7 +237,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ARRIVAL_DELAY"
-              DTS:DTSID="{3E5F4521-BB2A-4D42-A0B9-A43D09651B6B}"
+              DTS:DTSID="{23B23FB0-FAC4-4451-B895-C4E5120BDB85}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -246,7 +246,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DIVERTED"
-              DTS:DTSID="{29DFBCDE-E7C8-4F24-8173-B14509FAB4EA}"
+              DTS:DTSID="{38BE5E18-0EBB-488B-9AEB-1D93C0BB4B4A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -255,7 +255,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CANCELLED"
-              DTS:DTSID="{12EBF9E5-BBB3-49E3-9D80-19EB27F61455}"
+              DTS:DTSID="{08D9D710-C1E4-4AF5-9D75-FBA4134EBF34}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -264,7 +264,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CANCELLATION_REASON"
-              DTS:DTSID="{0B6EB71B-0566-4D01-B99D-0DDF3C7F82DC}"
+              DTS:DTSID="{9A976EC7-0F70-489A-99FD-0F1F465349D4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -273,7 +273,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AIR_SYSTEM_DELAY"
-              DTS:DTSID="{5855CEA2-8321-4ED2-B92A-BF4DDF671348}"
+              DTS:DTSID="{FF2C7631-E8C2-4BE9-A623-88D598E55687}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -282,7 +282,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SECURITY_DELAY"
-              DTS:DTSID="{69BB7EC3-72EE-4687-A544-B016AD2C9313}"
+              DTS:DTSID="{0B872FBA-8AFF-4C18-BA9E-B64C6637ACAB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -291,7 +291,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AIRLINE_DELAY"
-              DTS:DTSID="{989121CB-CCE0-487E-AD75-2BD557B973EE}"
+              DTS:DTSID="{E1ADA186-2E92-4BC3-A97C-7F41682EF7D6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -300,7 +300,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LATE_AIRCRAFT_DELAY"
-              DTS:DTSID="{8F1231F6-586E-45A5-8505-F209E26A8420}"
+              DTS:DTSID="{64BA3A1B-AF02-43A4-8152-4E4057BA0204}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -309,7 +309,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="WEATHER_DELAY"
-              DTS:DTSID="{AEBA83D2-9473-452D-9591-FF8B19436E96}"
+              DTS:DTSID="{5B01D216-23DC-494A-B9F2-EAA9F447B43C}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -329,7 +329,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\admin\Desktop\airport\airlines.csv">
+          DTS:ConnectionString="C:\Users\admin\source\repos\airport\airport\assets\airlines.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -338,7 +338,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="IATA_CODE"
-              DTS:DTSID="{25D593A0-E1B7-4A49-A9B8-CB30E3224075}"
+              DTS:DTSID="{7BF14CD9-5422-4665-8BA0-AE460DB142BA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -347,7 +347,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AIRLINE"
-              DTS:DTSID="{289D7968-D573-481B-98AB-C2BCF42E6649}"
+              DTS:DTSID="{DA533875-C4C1-4484-8A6F-7F4DC8AE6924}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -367,7 +367,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\admin\Desktop\airport\airports.csv">
+          DTS:ConnectionString="C:\Users\admin\source\repos\airport\airport\assets\airports.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -376,7 +376,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="IATA_CODE"
-              DTS:DTSID="{37851128-1254-42F7-95EB-8996084DA2AC}"
+              DTS:DTSID="{ED477518-3104-44B4-B174-3DA3C9F86073}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -385,7 +385,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AIRPORT"
-              DTS:DTSID="{F056DF47-D445-463E-A2B7-F19DC39FBCC1}"
+              DTS:DTSID="{389221CA-F7A2-4EB7-A282-D719567A4F14}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -394,7 +394,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="CITY"
-              DTS:DTSID="{E77ABF9A-4D41-445E-8473-1A28415454F2}"
+              DTS:DTSID="{A2752DA9-22EF-4ACA-9A6F-A2BAC8B30E6B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -403,7 +403,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="STATE"
-              DTS:DTSID="{1F3D18F7-0691-4BA3-ADC8-70BD4C8A53FF}"
+              DTS:DTSID="{22AFF56F-D3C0-425E-8E77-7B35AA58D901}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -412,7 +412,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="COUNTRY"
-              DTS:DTSID="{5072729D-1E6C-48AF-AE1E-8F1E69B5A224}"
+              DTS:DTSID="{8E786E61-E493-4721-ACF3-2F0EEE5C6C46}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -421,7 +421,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LATITUDE"
-              DTS:DTSID="{301E500F-FC33-4097-8657-213EC77F5179}"
+              DTS:DTSID="{508AE420-3ECC-45F3-8294-E0BF8E9D28A7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -430,7 +430,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="LONGITUDE"
-              DTS:DTSID="{53FC69B6-8EEA-4F9D-818A-92138D0626BE}"
+              DTS:DTSID="{F7D4C7E1-30A9-452C-A492-376A443CFBAC}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -2380,7 +2380,7 @@ where [refTable].[Year] = ? and [refTable].[Month] = ? and [refTable].[Day] = ?<
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Data Flow Task\56:invalid};#{Package\Data Flow Task\59:invalid};#{Package\Data Flow Task\62:invalid};</property>
+                  name="ParameterMap">#{Package\Data Flow Task\631:invalid};#{Package\Data Flow Task\632:invalid};#{Package\Data Flow Task\633:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -4566,17 +4566,33 @@ where [refTable].[flight_number_BK] = ?</property>
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="187.2,41.6"
-          Id="Package\Data Flow Task\Flat File Source Airlines"
-          TopLeft="64.8,123.2" />
+          Size="106.4,41.6"
+          Id="Package\Data Flow Task\Sort 1"
+          TopLeft="294.693882569627,121.142858601418" />
+        <NodeLayout
+          Size="152,41.6"
+          Id="Package\Data Flow Task\Lookup Airports"
+          TopLeft="821.502039370523,511.677313106083" />
+        <NodeLayout
+          Size="164.8,41.6"
+          Id="Package\Data Flow Task\Data Conversion 1"
+          TopLeft="348.571434507565,512.739501338399" />
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\Data Flow Task\Derived Column"
+          TopLeft="354.91837230125,608.46722751279" />
         <NodeLayout
           Size="184,41.6"
           Id="Package\Data Flow Task\Flat File Source Flights"
           TopLeft="64.8,40" />
         <NodeLayout
-          Size="152,41.6"
-          Id="Package\Data Flow Task\Lookup Airports"
-          TopLeft="821.502039370523,511.677313106083" />
+          Size="187.2,41.6"
+          Id="Package\Data Flow Task\Flat File Source Airlines"
+          TopLeft="64.8,123.2" />
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\Data Flow Task\Sort"
+          TopLeft="297.959188747684,40.2016812360823" />
         <NodeLayout
           Size="137.6,41.6"
           Id="Package\Data Flow Task\Lookup Date"
@@ -4586,13 +4602,241 @@ where [refTable].[flight_number_BK] = ?</property>
           Id="Package\Data Flow Task\Lookup Flights"
           TopLeft="597.599997956412,404.83361555355" />
         <NodeLayout
+          Size="138.4,41.6"
+          Id="Package\Data Flow Task\Merge Join 1"
+          TopLeft="374.693883932019,291.025214165552" />
+        <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\Data Flow Task\Sort 2"
+          TopLeft="303.673474559284,198.924372297316" />
+        <NodeLayout
           Size="149.6,41.6"
           Id="Package\Data Flow Task\Lookup Airlines"
           TopLeft="821.502039370523,407.737817185195" />
         <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\Data Flow Task\Derived Column"
-          TopLeft="354.91837230125,608.46722751279" />
+          Size="185.6,41.6"
+          Id="Package\Data Flow Task\Flat File Airports"
+          TopLeft="68.5714297391931,198.924372297316" />
+        <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\Data Flow Task\Sort 3"
+          TopLeft="466.12245691761,200.134456588323" />
+        <NodeLayout
+          Size="129.6,41.6"
+          Id="Package\Data Flow Task\Merge Join"
+          TopLeft="452.244905660869,78.3193285890694" />
+        <NodeLayout
+          Size="178.4,41.6"
+          Id="Package\Data Flow Task\ADO NET Destination"
+          TopLeft="563.2653157148,607.126057283984" />
+        <NodeLayout
+          Size="155.2,41.6"
+          Id="Package\Data Flow Task\Data Conversion"
+          TopLeft="365.714291942363,400.672272731689" />
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Sort Output3]"
+          TopLeft="519.32245691761,241.734456588323">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-53.6952396522574,49.2907575772296"
+              Start="0,0"
+              End="-53.6952396522574,41.7907575772296">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.2364607800939" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.2364607800939"
+                    Point2="0,29.2364607800939"
+                    Point3="-4,29.2364607800939" />
+                  <mssgle:LineSegment
+                    End="-49.6952396522574,29.2364607800939" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-49.6952396522574,29.2364607800939"
+                    Point2="-53.6952396522574,29.2364607800939"
+                    Point3="-53.6952396522574,33.2364607800939" />
+                  <mssgle:LineSegment
+                    End="-53.6952396522574,41.7907575772296" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Sort Output2]"
+          TopLeft="356.873474559284,240.524372297316">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="65.2870760394024,50.500841868236"
+              Start="0,0"
+              End="65.2870760394024,43.000841868236">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.9542136338451" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.9542136338451"
+                    Point2="0,29.9542136338451"
+                    Point3="4,29.9542136338451" />
+                  <mssgle:LineSegment
+                    End="61.2870760394024,29.9542136338451" />
+                  <mssgle:CubicBezierSegment
+                    Point1="61.2870760394024,29.9542136338451"
+                    Point2="65.2870760394024,29.9542136338451"
+                    Point3="65.2870760394024,33.9542136338451" />
+                  <mssgle:LineSegment
+                    End="65.2870760394024,43.000841868236" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Sort Output1]"
+          TopLeft="401.093882569627,141.942858601418">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="51.1510230912413,-37.2235300123485"
+              Start="0,0"
+              End="43.6510230912413,-37.2235300123485">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="25.5539244527172,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="25.5539244527172,0"
+                    Point2="29.5539244527172,0"
+                    Point3="29.5539244527172,-4" />
+                  <mssgle:LineSegment
+                    End="29.5539244527172,-33.2235300123485" />
+                  <mssgle:CubicBezierSegment
+                    Point1="29.5539244527172,-33.2235300123485"
+                    Point2="29.5539244527172,-37.2235300123485"
+                    Point3="33.5539244527172,-37.2235300123485" />
+                  <mssgle:LineSegment
+                    End="43.6510230912413,-37.2235300123485" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Sort Output]"
+          TopLeft="395.559188747684,61.0016812360823">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="56.6857169131846,32.5176473529871"
+              Start="0,0"
+              End="49.1857169131846,32.5176473529871">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="28.75174754984,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="28.75174754984,0"
+                    Point2="32.75174754984,0"
+                    Point3="32.75174754984,4" />
+                  <mssgle:LineSegment
+                    End="32.75174754984,28.5176473529871" />
+                  <mssgle:CubicBezierSegment
+                    Point1="32.75174754984,28.5176473529871"
+                    Point2="32.75174754984,32.5176473529871"
+                    Point3="36.75174754984,32.5176473529871" />
+                  <mssgle:LineSegment
+                    End="49.1857169131846,32.5176473529871" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Merge Join Output1]"
+          TopLeft="443.604087937191,332.625214165552">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,68.0470585661361"
+              Start="0,0"
+              End="0,60.5470585661361">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,60.5470585661361" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Merge Join Output]"
+          TopLeft="518.183681289239,119.919328589069">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,80.2151279992534"
+              Start="0,0"
+              End="0,72.7151279992534">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,72.7151279992534" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Lookup Match Output3]"
+          TopLeft="573.763263401554,533.956306406418">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-60.3918288939894,0"
+              Start="0,0"
+              End="-52.8918288939894,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-52.8918288939894,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-74.6373011657447,5,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Lookup Match Output2]"
           TopLeft="821.502039370523,533.42521229026">
@@ -4613,7 +4857,7 @@ where [refTable].[flight_number_BK] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-99.5107747032342,5,96.3827734375,11.609375"
+              BoundingBox="-99.510774703234,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -4661,168 +4905,10 @@ where [refTable].[flight_number_BK] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-13.1903660116947,5,96.3827734375,11.609375"
+              BoundingBox="-13.1903660116948,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\Data Flow Task\Sort"
-          TopLeft="297.959188747684,40.2016812360823" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Flat File Source Output]"
-          TopLeft="248.8,60.9008406180412">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="49.159188747684,0"
-              Start="0,0"
-              End="41.659188747684,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="41.659188747684,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\Data Flow Task\Sort 1"
-          TopLeft="294.693882569627,121.142858601418" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Flat File Source Output1]"
-          TopLeft="252,142.971429300709">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="42.6938825696274,0"
-              Start="0,0"
-              End="35.1938825696274,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="35.1938825696274,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="129.6,41.6"
-          Id="Package\Data Flow Task\Merge Join"
-          TopLeft="452.244905660869,78.3193285890694" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Sort Output]"
-          TopLeft="395.559188747684,61.0016812360823">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="56.6857169131846,32.5176473529871"
-              Start="0,0"
-              End="49.1857169131846,32.5176473529871">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="28.75174754984,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="28.75174754984,0"
-                    Point2="32.75174754984,0"
-                    Point3="32.75174754984,4" />
-                  <mssgle:LineSegment
-                    End="32.75174754984,28.5176473529871" />
-                  <mssgle:CubicBezierSegment
-                    Point1="32.75174754984,28.5176473529871"
-                    Point2="32.75174754984,32.5176473529871"
-                    Point3="36.75174754984,32.5176473529871" />
-                  <mssgle:LineSegment
-                    End="49.1857169131846,32.5176473529871" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Sort Output1]"
-          TopLeft="401.093882569627,141.942858601418">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="51.1510230912413,-37.2235300123485"
-              Start="0,0"
-              End="43.6510230912413,-37.2235300123485">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="25.5539244527172,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="25.5539244527172,0"
-                    Point2="29.5539244527172,0"
-                    Point3="29.5539244527172,-4" />
-                  <mssgle:LineSegment
-                    End="29.5539244527172,-33.2235300123485" />
-                  <mssgle:CubicBezierSegment
-                    Point1="29.5539244527172,-33.2235300123485"
-                    Point2="29.5539244527172,-37.2235300123485"
-                    Point3="33.5539244527172,-37.2235300123485" />
-                  <mssgle:LineSegment
-                    End="43.6510230912413,-37.2235300123485" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="155.2,41.6"
-          Id="Package\Data Flow Task\Data Conversion"
-          TopLeft="365.714291942363,400.672272731689" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Data Conversion Output]"
-          TopLeft="520.914291942363,423.552944142619">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="76.6857060140495,0"
-              Start="0,0"
-              End="69.1857060140495,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="69.1857060140495,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="185.6,41.6"
-          Id="Package\Data Flow Task\Flat File Airports"
-          TopLeft="68.5714297391931,198.924372297316" />
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\Data Flow Task\Sort 2"
-          TopLeft="303.673474559284,198.924372297316" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output2]"
           TopLeft="254.171429739193,219.724372297316">
@@ -4845,62 +4931,20 @@ where [refTable].[flight_number_BK] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\Data Flow Task\Sort 3"
-          TopLeft="466.12245691761,200.134456588323" />
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Merge Join Output]"
-          TopLeft="518.183681289239,119.919328589069">
+          Id="Package\Data Flow Task.Paths[Flat File Source Output1]"
+          TopLeft="252,142.971429300709">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,80.2151279992534"
+              EndConnector="42.6938825696274,0"
               Start="0,0"
-              End="0,72.7151279992534">
+              End="35.1938825696274,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,72.7151279992534" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="138.4,41.6"
-          Id="Package\Data Flow Task\Merge Join 1"
-          TopLeft="374.693883932019,291.025214165552" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Sort Output2]"
-          TopLeft="356.873474559284,240.524372297316">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="65.2870760394024,50.500841868236"
-              Start="0,0"
-              End="65.2870760394024,43.000841868236">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.9542136338451" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.9542136338451"
-                    Point2="0,29.9542136338451"
-                    Point3="4,29.9542136338451" />
-                  <mssgle:LineSegment
-                    End="61.2870760394024,29.9542136338451" />
-                  <mssgle:CubicBezierSegment
-                    Point1="61.2870760394024,29.9542136338451"
-                    Point2="65.2870760394024,29.9542136338451"
-                    Point3="65.2870760394024,33.9542136338451" />
-                  <mssgle:LineSegment
-                    End="65.2870760394024,43.000841868236" />
+                    End="35.1938825696274,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4910,107 +4954,19 @@ where [refTable].[flight_number_BK] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Sort Output3]"
-          TopLeft="519.32245691761,241.734456588323">
+          Id="Package\Data Flow Task.Paths[Flat File Source Output]"
+          TopLeft="248.8,60.9008406180412">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-53.6952396522574,49.2907575772296"
+              EndConnector="49.159188747684,0"
               Start="0,0"
-              End="-53.6952396522574,41.7907575772296">
+              End="41.659188747684,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,25.2364607800939" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.2364607800939"
-                    Point2="0,29.2364607800939"
-                    Point3="-4,29.2364607800939" />
-                  <mssgle:LineSegment
-                    End="-49.6952396522574,29.2364607800939" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-49.6952396522574,29.2364607800939"
-                    Point2="-53.6952396522574,29.2364607800939"
-                    Point3="-53.6952396522574,33.2364607800939" />
-                  <mssgle:LineSegment
-                    End="-53.6952396522574,41.7907575772296" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Merge Join Output1]"
-          TopLeft="443.604087937191,332.625214165552">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,68.0470585661361"
-              Start="0,0"
-              End="0,60.5470585661361">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,60.5470585661361" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="178.4,41.6"
-          Id="Package\Data Flow Task\ADO NET Destination"
-          TopLeft="563.2653157148,607.126057283984" />
-        <NodeLayout
-          Size="164.8,41.6"
-          Id="Package\Data Flow Task\Data Conversion 1"
-          TopLeft="348.571434507565,512.739501338399" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Lookup Match Output3]"
-          TopLeft="573.763263401554,533.956306406418">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-60.3918288939894,0"
-              Start="0,0"
-              End="-52.8918288939894,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-52.8918288939894,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-83.5059535094947,5,114.120078125,16"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Data Conversion Output1]"
-          TopLeft="431.144903404407,554.339501338399">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,54.1277261743915"
-              Start="0,0"
-              End="0,46.6277261743915">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,46.6277261743915" />
+                    End="41.659188747684,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5041,6 +4997,50 @@ where [refTable].[flight_number_BK] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Data Conversion Output1]"
+          TopLeft="431.144903404407,554.339501338399">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,54.1277261743915"
+              Start="0,0"
+              End="0,46.6277261743915">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,46.6277261743915" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Data Conversion Output]"
+          TopLeft="520.914291942363,423.552944142619">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="76.6857060140495,0"
+              Start="0,0"
+              End="69.1857060140495,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="69.1857060140495,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -5050,7 +5050,7 @@ where [refTable].[flight_number_BK] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -5073,7 +5073,7 @@ where [refTable].[flight_number_BK] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -5096,7 +5096,7 @@ where [refTable].[flight_number_BK] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -5119,7 +5119,7 @@ where [refTable].[flight_number_BK] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
